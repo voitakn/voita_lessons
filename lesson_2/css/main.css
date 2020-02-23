@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+p {
+    text-align: justify;
+}
+h2 {
+    color: #6c7d7f;
+    padding: 0 0 15px 0;
+}
+body {
+    background-color: #d9e8ea;
+}
+.head-div {
+    position: fixed;
+    background-color: #c6d5d7;
+    border-bottom: #9eadaf 4px dotted;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo-menu {
+    display: table;
+}
+.head-div .logo-menu .logo img {
+    height: 70px;
+}
+.logo-menu > div {
+    display: table-cell;
+    width: 160px;
+}
+.logo-menu > nav {
+    display: table-cell;
+    flex: 1;
+    vertical-align: middle;
+}
+.logo-menu > nav > ul {
+    display: table;
+}
+.logo-menu > nav > ul > li {
+    display: table-cell;
+}
+.logo-menu > nav > ul > li > a,
+.logo-menu > nav > ul > li > a:active,
+.logo-menu > nav > ul > li > a:visited {
+    display: block;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 0 3px;
+    border-radius: 3px;
+    background-color: #5e6c6e;
+    color: #fff;
+    text-decoration: none;
+}
+.logo-menu > nav > ul > li > a:hover {
+    background-color: #495759;
+    color: #ffffea;
+}
+.logo-menu > .user {
+    vertical-align: middle;
+}
+.logo-menu > .user > ul {
+    display: flex;
+}
+.logo-menu > .user > ul > li {
+    flex: 1 1 auto;
+}
+.logo-menu > .user > ul > li > a,
+.logo-menu > .user > ul > li > a:active,
+.logo-menu > .user > ul > li > a:visited {
+    display: block;
+    font-size: 16px;
+    padding: 5px 15px;
+    color: #3e494b;
+}
+.logo-menu > .user > ul > li > a:hover {
+    color: #ffffff;
+    background-color: #3e494b;
+}
+
+.center-div, .logo-menu, .footer-div > .copy {
+    width: 1200px;
+    margin: auto;
+}
+
+.center-div {
+    margin-top: 90px;
+}
+.center-div > div {
+    background-color: #fff;
+    margin: 20px 0 20px 0;
+    padding: 20px 30px;
+    border: #586264 1px solid;
+    border-radius: 10px;
+    box-shadow: #000 0px 0px 10px;
+}
+.products {
+    display: flex;
+    flex-flow: row wrap;
+}
+.products > .prod-item {
+    width: 315px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: #9eadaf 0px 0px 5px;
+}
+.products > .prod-item > .descr {
+    font-style: italic;
+}
+.products > .prod-item > .descr a {
+    color: #577ebd;
+}
+.pict {
+    height: 160px;
+}
+.pict > img {
+    height: 100%;
+}
+.contacts {
+    display: flex;
+}
+.contacts > .card {
+    flex: 1 1 auto;
+}
+
+.footer-div {
+    background-color: #c9d8da;
+    border-top: 7px #a6b5b7 solid;
+}
+.footer-div > .copy {
+    display: table;
+    height: 70px;
+}
+.footer-div > .copy > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.center {
+    text-align: center;
+}
